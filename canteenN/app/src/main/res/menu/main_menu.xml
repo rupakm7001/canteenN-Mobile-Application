@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/action_settings_btn"
+        android:title="admin" />
+    <item
+        android:id="@+id/action_logout_btn"
+        android:title="Logout" />
+    <item
+        android:id="@+id/action_settings_btn_btn"
+        android:title="Profile" />
+</menu>

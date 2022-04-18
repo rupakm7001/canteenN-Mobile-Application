@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.canteenN.clgprjt">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="CanteenApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.canteenN.clgprjt.ViewQr"></activity>
+        <activity android:name="com.example.canteenN.clgprjt.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.canteenN.clgprjt.MainActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.example.canteenN.clgprjt.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.canteenN.clgprjt.RegisterActivity" />
+        <activity android:name="com.example.canteenN.clgprjt.SetupActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name="com.example.canteenN.clgprjt.NewPostActivity"
+            android:parentActivityName="com.example.canteenN.clgprjt.MainActivity" />
+        <activity
+            android:name="com.example.canteenN.clgprjt.CommentsActivity"
+            android:parentActivityName="com.example.canteenN.clgprjt.MainActivity" />
+        <activity android:name="com.example.canteenN.clgprjt.AdminLogin" />
+        <activity android:name="com.example.canteenN.clgprjt.ChoiceAdmin" />
+        <activity android:name="com.example.canteenN.clgprjt.DualLogin" />
+        <activity android:name="com.example.canteenN.clgprjt.PlaceOrder" />
+        <activity android:name="com.example.canteenN.clgprjt.ShowOrder" />
+    </application>
+
+</manifest>
